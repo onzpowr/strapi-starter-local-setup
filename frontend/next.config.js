@@ -2,6 +2,9 @@
 
 const nextConfig = {
   images: {
+	domains : [
+		"fruitful-captain-65463f1436.media.strapiapp.com"
+	],
     remotePatterns: [
       {
         protocol: 'http',
@@ -11,7 +14,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'fruitful-captain-65463f1436.media.strapiapp.com',
+        hostname: 'images.pexels.com',
       }
     ],
   },
